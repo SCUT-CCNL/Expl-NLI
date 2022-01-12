@@ -1,4 +1,4 @@
- This code is for paper "Explainable Natural Language Inference via Identifying Important Rationales", which will be opened after the review. We thank 
+ This code is for paper "Explainable Natural Language Inference via Identifying Important Rationales", which will be opened after the review. 
  
  1. To run this code, you should obtain the data from https://github.com/OanaMariaCamburu/e-SNLI, then process it by run the process_data.py;
  2. go to the file of 'rationale_extra' and run the train.py and then the predict.py to predict the rationales;
