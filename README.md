@@ -9,7 +9,7 @@
  	
  	4.2 generate the NLEs by the finetuned model: run the 'prepare_data_for_generation.py' and 'GPT2_generate.py';
    
- 8. go to the file of 'classify', and run the 'main_classify.py' to obtain the prediction results.
+ 8. go to the file of 'classify', and run the 'prepare_data_task_pred.py' to prepare data for train. Then, run the 'main_classify.py' to obtain the prediction results.
  
 Note: All parameters use default values, and you can also set them at runtime.
 
@@ -32,3 +32,6 @@ After running the above code correctly, you will get the following files in the 
      --train-gen.txt
      --dev-gen.txt
      --test-gen.txt
+     --train-r-with-e.txt
+     --dev-r-with-e.txt
+     --test-r-with-e.txt
