@@ -10,28 +10,22 @@
  
 Note: All parameters use default values, and you can also set them at runtime.
 
-The directory structure of the dataset as following, and the data could be obtained by runing the code above.
---datas
+After running the above code correctly, you will get the following files in the 'datas/snli_data_dir/' directory
 
-  --snli_data_dir
-  
-    --prompts
-      --train-prompts.txt
-      --train-prompts.txt
-      --train-prompts.txt
-    --finetune
-      --train-finetune.txt
-      --dev-finetune.txt
-      --dev-finetune.txt
-    --raw_data
-      --train.json
-      --dev.json
-      --test.json
-    --rationales
-      --train-rationales.json
-      --dev-rationales.json
-      --test-rationales.json
-    --data_with_hints
-      --train-with-hints.json
-      --dev-with-hints.json
-      --test-with-hints.json
+     --train.json
+     --dev.json
+     --test.json
+     --train-rationales.json
+     --dev-rationales.json
+     --test-rationales.json
+     --train-with-hints.json
+     --dev-with-hints.json
+     --test-with-hints.json
+     --train-prompts.txt  
+     --train-prompts.txt
+     --train-prompts.txt
+     --train-finetune.txt
+     --dev-finetune.txt
+     --train-gen.txt
+     --dev-gen.txt
+     --test-gen.txt
