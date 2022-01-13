@@ -9,3 +9,27 @@
  5. go to the file of 'classify', and run the 'main_classify.py' to obtain the prediction results.
  
 Note: All parameters use default values, and you can also set them at runtime.
+
+The directory structure of the dataset is
+datas
+  snli_data_dir
+    prompts
+      train-prompts.txt
+      train-prompts.txt
+      train-prompts.txt
+    finetune
+      train-finetune.txt
+      dev-finetune.txt
+      dev-finetune.txt
+    raw_data
+      train.json
+      dev.json
+      test.json
+    rationales
+      train-rationales.json
+      dev-rationales.json
+      test-rationales.json
+    data_with_hints
+      train-with-hints.json
+      dev-with-hints.json
+      test-with-hints.json
