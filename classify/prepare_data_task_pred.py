@@ -4,11 +4,11 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--data', default='../datas/snli_data_dir/train-gen.txt', type=str)
-parser.add_argument('--output',default='../datas/snli_data_dir/train-expl.json', type=str)
+parser.add_argument('--output',default='../datas/snli_data_dir/train-r-with-e.json', type=str)
 # parser.add_argument('--data', default='../datas/snli_data_dir/dev-gen.txt', type=str)
-# parser.add_argument('--output',default='../datas/snli_data_dir/dev-expl.json', type=str)
+# parser.add_argument('--output',default='../datas/snli_data_dir/dev-r-with-e.json', type=str)
 # parser.add_argument('--data', default='../datas/snli_data_dir/test-gen.txt', type=str)
-# parser.add_argument('--output',default='../datas/snli_data_dir/test-expl.json', type=str)
+# parser.add_argument('--output',default='../datas/snli_data_dir/test-r-with-e.json', type=str)
 args = parser.parse_args()
 
 with open(args.data, 'r') as f:
