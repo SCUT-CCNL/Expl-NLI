@@ -11,13 +11,13 @@
 Note: All parameters use default values, and you can also set them at runtime.
 
 The directory structure of the dataset is
-datas
-  snli_data_dir
-    prompts
-      train-prompts.txt
-      train-prompts.txt
-      train-prompts.txt
-    finetune
+--datas
+  --snli_data_dir
+    --prompts
+      --train-prompts.txt
+      --train-prompts.txt
+      --train-prompts.txt
+    --finetune
       train-finetune.txt
       dev-finetune.txt
       dev-finetune.txt
