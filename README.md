@@ -35,3 +35,14 @@ After running the above code correctly, you will get the following files in the 
      --train-r-with-e.txt
      --dev-r-with-e.txt
      --test-r-with-e.txt
+     
+    
+
+# Acknowledgment:
+
+This repo is built upon the following work:
+
+        LIREx: Augmenting Language Inference with Relevant Explanations.
+        https://github.com/zhaoxy92/LIREx
+
+Many thanks to the authors and developers!
